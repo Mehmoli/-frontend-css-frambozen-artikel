@@ -5,12 +5,12 @@ html {
 
 
 body {
-    background-color:#DFD9E2;
+    background-color:hsl(280, 13%, 87%);
     width:100%
 }
 
 h1, h2, h3 {
-    color:#865B9A;
+    color: 	hsl(281, 26%, 48%);
 }
 h1 {
     text-decoration: underline;
@@ -26,17 +26,20 @@ h2 {
 
 #introduction {
     font-weight: bolder;
-    color:#535865;
+    color: 	hsl(223, 10%, 36%);
 }
 ul {
     list-style-type: square;
 }
 p, ul, li {
-    color:#535865;
+    color:hsl(223, 10%, 36%);
 }
 
 button {
-    background-color:#865B9A;
+    background-color: 	hsl(281, 26%, 48%);
     color: white;
     font-size: 1em;
+}
+button:hover {
+    background-color: #535865;
 }
